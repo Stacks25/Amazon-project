@@ -1,0 +1,369 @@
+*,p{
+  margin:0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+body{
+  background-color: rgb(192,192 192);
+  font-family:-apple-system; 
+}
+
+header{
+  
+  background-color: #606060;
+  display: flex;
+  align-items: center;
+  Position:sticky;
+  top:0;
+  z-index :100;
+  padding: 10px 0;
+  width:100%
+}
+
+.logo a img {
+  margin:10px;
+ font-size: 50px;
+  font-weight: bold;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px 5px;
+  width: 65px;
+  
+}
+/* search box */
+.search-box{
+  display:flex;
+  
+}
+
+.search-box>input{
+  height: 30px;
+  padding:10px;
+  border: none;
+  width:700px;
+}
+.search-box:focus{
+  background-color: #cd9042;
+  height: 33px;
+  line-height:33px;
+  text-align: center;
+  padding: 0 8px;
+ 
+  }
+
+
+.searchButton {
+  width: 70px;
+  height: 30px;
+  border: 1px solid #00B4CC;
+  background:orange;
+  text-align: center;
+  color:black;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+nav  {
+  display: flex;
+  justify-content:flex-end;
+}
+
+nav a {
+  color:#fff;
+  text-decoration: none;
+  display:;
+  flex-direction: column;
+  margin:  10px;
+}
+
+nav span:first-child{
+  font-size: 10px;
+}
+
+
+.cart  {
+  display:flex;
+  flex-direction:row;
+}
+
+
+.cart a i {
+  font-size:20px;
+  color: #fff;
+  margin-top:20px;
+}
+
+.cart>small  {
+  color:#fff;
+  font-weight:800;
+  font-size:20px;
+  color: #fff;
+  margin-top:10px;
+}
+
+main{
+  max-width:1500px;
+  margin-right:auto;
+  margin-left:auto;
+}
+/* Slides*/
+
+/*slider for amazon */
+@keyframes slidy {
+0% { left: 0%; }
+20% { left: 0%; }
+25% { left: -100%; }
+45% { left: -100%; }
+50% { left: -200%; }
+70% { left: -200%; }
+75% { left: -300%; }
+95% { left: -300%; }
+100% { left: -400%; }
+}
+
+body { margin: 0; } 
+div#slider { overflow: hidden; }
+div#slider figure img { width: 20%; float: left; }
+div#slider figure { 
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  text-align: left;
+  font-size: 0;
+  animation: 30s slidy infinite; 
+}
+
+
+/* side by side images*/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f1f1;
+  padding: 20px;
+  font-family: Arial;
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: px -16px;
+}
+
+/* Add padding BETWEEN each column ) */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after rows */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+  
+}
+
+/* first button*/
+.button {
+  background-color:#FFA500;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 12px;
+  width:100%;
+ }
+
+/* Content under the button */
+.content-under {
+  background-color: white;
+  padding: 10px;
+  height: 10px;
+}
+
+/* bottom button*/
+
+.buttonbottom {
+  background-color:#FFA500;
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 12px;
+  width:400px;
+ }
+
+/*first  bottom navigation row*/
+.downrow:after {
+  content: "";
+  display: table;
+  clear: both;
+  
+  
+}
+
+
+.columnnav{
+  padding:10px;
+  float: left;
+  width: 25%;
+  color:white;
+   background-color:#001F3E;
+  
+}
+
+
+
+/* Scroll images  */
+div.scrollimage {
+  background-color:white;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+
+div.scrollimage a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  background-color:white;
+}
+
+div.scrollimage a:hover {
+  background-color:white;
+}
+
+/* second and thridScroll images  */
+div.scrollimage2 {
+  background-color:white;
+  overflow: auto;
+  white-space: nowrap;
+  padding: 10px 3px;
+  margin-top: 10px ;
+  
+}
+
+
+div.scrollimage2 a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  background-color:white;
+}
+
+div.scrollimage2 a:hover {
+  background-color:white;
+}
+
+
+/* All side by side images*/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f1f1;
+  padding: 20px;
+  font-family: Arial;
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column ) */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+
+  
+
+/* Bottom column navigation */
+.columnnav {
+  float: left;
+  width:25%;
+  background-color:#09363E;
+  height:30%;
+  padding:50px;
+}
+.downrow{
+   display:inline-block;
+  height:30%;
+  width:25%
+  content:column;
+  display:table;
+   clear: both;
+  
+}
+
+
+
+
+
+
+  /* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
